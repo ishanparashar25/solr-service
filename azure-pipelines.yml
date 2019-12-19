@@ -12,8 +12,8 @@ pool:
 steps:
 - task: Gradle@2
   inputs:
-    workingDirectory: '/tree/master/solr-service'
-    gradleWrapperFile: 'tree/master/solr-service/gradlew'
+    workingDirectory: 'solr-service'
+    gradleWrapperFile: 'solr-service/gradlew'
     gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
